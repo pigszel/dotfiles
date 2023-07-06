@@ -1,5 +1,4 @@
-alias l="ls -cl -hp --time-style=long-iso --group-directories-first --color=always"
-alias ll="l -a"
+alias ll="ls -la --color=always"
 
 alias cd1="cd .."
 alias cd2="cd ../../"
@@ -9,6 +8,6 @@ alias cd5="cd ../../../../../"
 
 start() { nohup $1 &> /dev/null & disown; }
 
-alias tree='tree -I ".git|node_modules"'
+alias tree="find . -print -type d \( -path ./.git -o -path ./node_modules \) -prune | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 alias path='echo -e ${PATH//:/\\n}'
