@@ -1,9 +1,10 @@
-require'nvim-treesitter.configs'.setup {
+require("nvim-treesitter.configs").setup({
   -- A list of parser names, or "all"
   ensure_installed = {
     "comment",
     "css",
     "dockerfile",
+    "gitignore",
     "html",
     "javascript",
     "json",
@@ -16,8 +17,9 @@ require'nvim-treesitter.configs'.setup {
     "svelte",
     "tsx",
     "typescript",
+    "vim",
     "vimdoc",
-    "vue"
+  	"vue",
   },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
@@ -37,4 +39,6 @@ require'nvim-treesitter.configs'.setup {
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
   },
-}
+  autotag = { enable = true },
+  indent = { enable = true },
+})
