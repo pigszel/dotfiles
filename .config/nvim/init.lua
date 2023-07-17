@@ -1,2 +1,1 @@
-require("benji")
-
+require('benji')

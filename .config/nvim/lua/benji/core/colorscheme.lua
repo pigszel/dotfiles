@@ -1,16 +1,15 @@
--- set colorscheme to a preferred one with protected call
+-- Set colorscheme to a preferred one with protected call
 -- in case it isn't installed
 
--- colorscheme options: cobalt2, nightfly, rose-pine
+-- Colorscheme options: cobalt2, nightfly, rose-pine, onedark
 
--- to use cobalt2:
+-- To use cobalt2:
 -- require('colorbuddy').colorscheme('cobalt2')
 
-local status, _ = pcall(vim.cmd, "colorscheme nightfly")
+local status, _ = pcall(vim.cmd, 'colorscheme nightfly')
 if not status then
-  print("Colorscheme not found!")
+  print('Colorscheme not found!')
   return
 end
 
 -- vim.g.nightflyTransparent = true
-
