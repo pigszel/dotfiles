@@ -151,7 +151,10 @@ return packer.startup(function(use)
   use('folke/trouble.nvim')
 
   -- Undotree for better undo history
-	use('mbbill/undotree')
+  use('mbbill/undotree')
+
+  -- Wakatime
+  use('wakatime/vim-wakatime')
 
   -- ThePrimeagen's navigation plugin
   use('theprimeagen/harpoon')
