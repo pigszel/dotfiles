@@ -163,6 +163,8 @@ return packer.startup(function(use)
   use('windwp/nvim-autopairs')
   use('windwp/nvim-ts-autotag')
 
+  use('akinsho/nvim-bufferline.lua')
+
   -- Distraction-free coding
   use('folke/zen-mode.nvim')
 
