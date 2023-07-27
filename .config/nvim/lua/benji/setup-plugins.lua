@@ -159,6 +159,10 @@ return packer.startup(function(use)
   -- ThePrimeagen's navigation plugin
   use('theprimeagen/harpoon')
 
+  -- Autopairs, autoclose and autorename HTML tags with treesitter
+  use('windwp/nvim-autopairs')
+  use('windwp/nvim-ts-autotag')
+
   -- Distraction-free coding
   use('folke/zen-mode.nvim')
 
