@@ -1,13 +1,13 @@
 -- Import plugin safely
 local bufferline_setup, bufferline = pcall(require, 'bufferline')
 if not bufferline_setup then
-	print('Plugin "bufferline" not found!')
-	return
+  print('Plugin "bufferline" not found!')
+  return
 end
 
 bufferline.setup({
   options = {
-    mode = 'tabs',
+    mode = 'buffers', -- 'buffers', 'tabs'
     separator_style = 'slant',
     always_show_bufferline = false,
     show_buffer_close_icons = false,

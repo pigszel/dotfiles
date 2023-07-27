@@ -163,6 +163,7 @@ return packer.startup(function(use)
   use('windwp/nvim-autopairs')
   use('windwp/nvim-ts-autotag')
 
+  -- Bufferline for tabs
   use('akinsho/nvim-bufferline.lua')
 
   -- Distraction-free coding
