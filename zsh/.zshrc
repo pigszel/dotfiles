@@ -154,7 +154,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Add ~/bin for having custom scripts
-export PATH=~/bin:PATH
+export PATH=~/bin:$PATH
 
 
 # Docker
