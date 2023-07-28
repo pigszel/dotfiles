@@ -41,6 +41,9 @@ Nyissuk meg vimmel a symlinkelt konfigurációs fájlt (`$ cd ~/.tmux.conf`), ma
 
 Innentől a prefix a Ctrl + a lesz.
 
+Ahhoz, hogy használni tudjuk az Alt + számmal való ablakváltást tmuxban, iTermben a baloldali Option keyt át kell állítanunk: [iterm-keys.png](/documents/iterm-keys.png)
+
+
 ### 5) tmux-sessionizer shell command
 
 Egész egyszerűen symlinkeljük be `t` néven:
