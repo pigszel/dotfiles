@@ -98,6 +98,11 @@ return packer.startup(function(use)
   --   end,
   -- })
 
+  -- use({
+  --   'lalitmee/cobalt2.nvim',
+  --   requires = 'tjdevries/colorbuddy.nvim',
+  -- })
+
   -- Preferred colorschemes
   use('bluz71/vim-nightfly-guicolors')
 
