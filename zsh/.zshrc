@@ -153,6 +153,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+# Add ~/bin for having custom scripts
+export PATH=~/bin:PATH
+
+
 # Docker
 alias d:killall='docker kill $(docker ps -q)'
 alias d:removeall='docker rm $(docker ps -a -q)'
