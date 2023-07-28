@@ -8,6 +8,9 @@
 	autocrlf = input
 	excludesfile = ~/.gitignore
 
+[rerere]
+  enabled = true
+
 [alias]
 	co = checkout
 	cob = checkout -b

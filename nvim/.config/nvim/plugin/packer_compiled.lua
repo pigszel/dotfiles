@@ -144,6 +144,16 @@ _G.packer_plugins = {
     path = "/Users/benji/.local/share/nvim/site/pack/packer/start/neodev.nvim",
     url = "https://github.com/folke/neodev.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/benji/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/Users/benji/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",
+    url = "https://github.com/akinsho/nvim-bufferline.lua"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/benji/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -163,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/benji/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/Users/benji/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -228,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/benji/.local/share/nvim/site/pack/packer/start/vim-svelte",
     url = "https://github.com/evanleck/vim-svelte"
+  },
+  ["vim-wakatime"] = {
+    loaded = true,
+    path = "/Users/benji/.local/share/nvim/site/pack/packer/start/vim-wakatime",
+    url = "https://github.com/wakatime/vim-wakatime"
   },
   ["which-key.nvim"] = {
     loaded = true,
