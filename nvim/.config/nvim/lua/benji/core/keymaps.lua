@@ -4,8 +4,8 @@ vim.g.mapleader = ' '
 -- -- Go back to netrw directory listing
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
-vim.keymap.set('v', 'J', ':m ">+1<CR>gv=gv') -- Move selected text down in visual mode
-vim.keymap.set('v', 'K', ':m "<-2<CR>gv=gv') -- Move selected text up in visual mode
+vim.keymap.set('v', 'J', ':m \'>+1<CR>gv=gv') -- Move selected text down in visual mode
+vim.keymap.set('v', 'K', ':m \'<-2<CR>gv=gv') -- Move selected text up in visual mode
 
 -- Keep cursor in the middle / at the same position
 vim.keymap.set('n', 'J', 'mzJ`z') -- Moving the next line to behind current line
