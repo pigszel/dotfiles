@@ -177,8 +177,8 @@ alias w:frontend='npm run watch'
 alias w:icomfrontend='docker-compose run --rm --entrypoint="" node node_modules/.bin/grunt'
 
 alias c:hird='rm -rf node_modules && docker-compose run --rm node npm run install'
-alias b:hird='docker-compose run --rm node npm run install'
-alias w:hird='docker-compose run --rm node npm run install && docker-compose run --rm node npm run watch'
+alias b:hird='docker-compose run --rm node npm run build'
+alias w:hird='docker-compose run --rm node npm run build && docker-compose run --rm node npm run watch'
 
 alias c:office='rm -rf node_modules && docker-compose run --rm node npm run install'
 alias b:office='docker-compose run --rm node npm run build'
