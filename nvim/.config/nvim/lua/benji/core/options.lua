@@ -69,7 +69,7 @@ vim.opt.colorcolumn = '120' -- show column after 80 chars
 -- Set completeopt to have a better completion experience
 vim.opt.completeopt = 'menuone,noselect'
 
-vim.opt.iskeyword:append('-') -- consider string-string as whole word
+-- vim.opt.iskeyword:append('-') -- consider string-string as whole word
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
