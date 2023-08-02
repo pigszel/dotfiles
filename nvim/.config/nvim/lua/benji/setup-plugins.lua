@@ -171,6 +171,9 @@ return packer.startup(function(use)
   -- Bufferline for tabs
   use('akinsho/nvim-bufferline.lua')
 
+  -- Prettier
+  use('MunifTanjim/prettier.nvim')
+
   -- Distraction-free coding
   use('folke/zen-mode.nvim')
 

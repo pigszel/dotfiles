@@ -5,7 +5,7 @@
 1. [Homebrew](https://brew.sh) telepítése:
    - `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. Homebrew package-ek telepítése
-   - `$ brew install stow nvim tmux tpm tree fzf`
+   - `$ brew install stow nvim tmux tpm tree fzf fsouza/prettierd/prettierd`
 3. fzf hasznos keybindingok telepítése
    - `$ $(brew --prefix)/opt/fzf/install`
 
