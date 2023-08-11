@@ -35,11 +35,12 @@ lualine.setup({
 		icons_enabled = true,
 		theme = lualine_nightfly,
 		component_separators = '|',
-		section_separators = '',
+		-- section_separators = '',
+		section_separators = { left = '', right = ''},
 	},
 	sections = {
 		lualine_a = {
-			{ 'buffers' },
+			-- { 'buffers' },
 		},
 	},
 })
